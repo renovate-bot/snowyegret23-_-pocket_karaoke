@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
     private static final String KEY_PITCH = "pitch";
     private static final String KEY_LAST_URL = "last_url";
     private static final String KEY_AD_BLOCK = "ad_block";
-    private static final String DEFAULT_URL = "https://www.google.com";
+    private static final String DEFAULT_URL = "https://www.youtube.com";
     private static final int MIN_PITCH = -12;
     private static final int MAX_PITCH = 12;
 
