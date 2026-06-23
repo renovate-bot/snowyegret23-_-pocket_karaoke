@@ -2,6 +2,9 @@ plugins {
     id "com.android.application"
 }
 
+def appVersionName = project.findProperty("appVersionName") ?: "1.0.0"
+def appVersionCode = (project.findProperty("appVersionCode") ?: "10000") as Integer
+
 android {
     namespace "com.pocketkaraoke"
     compileSdk 35
@@ -10,8 +13,8 @@ android {
         applicationId "com.pocketkaraoke"
         minSdk 23
         targetSdk 35
-        versionCode 1
-        versionName "0.1.0"
+        versionCode appVersionCode
+        versionName appVersionName
     }
 
     compileOptions {

@@ -31,6 +31,7 @@ final class AdBlocker {
             new FilterSource("adguard-tracking.txt", "https://filters.adtidy.org/extension/ublock/filters/3.txt"),
             new FilterSource("ublock-filters.txt", "https://ublockorigin.github.io/uAssets/filters/filters.min.txt"),
             new FilterSource("ublock-privacy.txt", "https://ublockorigin.github.io/uAssets/filters/privacy.min.txt"),
+            new FilterSource("ublock-quick-fixes.txt", "https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt"),
             new FilterSource("list-kr.txt", "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-uBlockOrigin-classic.txt")
     };
     private static final String[] FALLBACK_RULES = {
