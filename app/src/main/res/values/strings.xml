@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pocket Karaoke</string>
+    <string name="button_back">&lt;</string>
+    <string name="button_forward">&gt;</string>
+    <string name="button_reload">R</string>
+    <string name="button_go">Go</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_save_bookmark">Save</string>
+    <string name="button_bookmarks">Marks</string>
+    <string name="button_ad_block_on">AD On</string>
+    <string name="button_ad_block_on_with_count">AD On %1$d</string>
+    <string name="button_ad_block_off">AD Off</string>
+    <string name="key_label">Key</string>
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="bookmarks_empty">No bookmarks saved.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_close">Close</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="bookmark_item">%1$s\n%2$s  Key %3$s%4$d</string>
+    <string name="delete_bookmark_title">Delete bookmark?</string>
+    <string name="delete_bookmark_message">%1$s</string>
+</resources>
